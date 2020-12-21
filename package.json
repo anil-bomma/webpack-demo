@@ -4,7 +4,8 @@
   "description": "This is an demo app for webpack, maily focused on basic build workflow using webpack",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,8 @@
   },
   "homepage": "https://github.com/anil-bomma/webpack-demo#readme",
   "devDependencies": {
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.8.2"
   },
   "dependencies": {
     "react": "^17.0.1",
